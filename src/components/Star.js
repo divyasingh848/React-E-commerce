@@ -28,7 +28,6 @@ const Star = ({ stars, reviews }) => {
     </Wrapper>
   );
 };
-//
 
 const Wrapper = styled.section`
   .icon-style {
