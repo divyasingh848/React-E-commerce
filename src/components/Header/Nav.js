@@ -81,7 +81,7 @@ const Nav = () => {
     }
 
     @media (max-width: ${({ theme }) => theme.media.mobile}) {
-      .mobile-navbar-btn {
+      . {
         display: inline-block;
         z-index: 9999;
         border: ${({ theme }) => theme.colors.black};
